@@ -1,1 +1,3 @@
-<% @coupons.all %>
+<% @coupons.each do |c| %>
+<%= c.store %>
+<% end %>
